@@ -50,7 +50,7 @@ const SideBar = () => {
       file(name: { eq: "logo" }) {
         childImageSharp {
           fluid(maxWidth: 170, maxHeight: 70) {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }

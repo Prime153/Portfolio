@@ -66,7 +66,7 @@ const Skills = () => {
 
   useEffect(() => {
     const randomX = random(1, 70);
-    const randomY = random(1, 350);
+    const randomY = random(1, 300);
     const randomTime = random(3, 10);
     const randomTime2 = random(5, 10);
     const randomAngle = random(-10, 5);

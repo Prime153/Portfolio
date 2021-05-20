@@ -8,6 +8,7 @@ export const useStyles = makeStyles((theme) => ({
     width: "150px",
     backgroundColor: "#252728",
     position: "fixed",
+    color: "white !important",
     zIndex: 999,
     boxShadow: " 16px 0px 20px rgba(0, 0, 0, 0.25)",
 
@@ -36,6 +37,7 @@ const drawerWidth = 200;
 
 export const useStylesDrawer = makeStyles((theme) => ({
   root: {
+    color: "white !important",
     zIndex: 99,
     display: "none",
     [theme.breakpoints.down("md")]: {

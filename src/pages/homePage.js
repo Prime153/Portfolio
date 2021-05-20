@@ -113,7 +113,7 @@ const HomePage = () => {
       file(name: { eq: "me" }) {
         childImageSharp {
           fluid(maxWidth: 625, maxHeight: 513) {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }

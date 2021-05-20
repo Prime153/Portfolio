@@ -29,7 +29,7 @@ const Projects = () => {
           id
           childImageSharp {
             fluid(maxWidth: 800, quality: 100) {
-              ...GatsbyImageSharpFluid_noBase64
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
