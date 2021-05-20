@@ -26,6 +26,7 @@ export const useStyles = makeStyles((theme) => ({
   listItem: {
     display: "flex",
     justifyContent: "center",
+    color: "white !important",
   },
   iconContainer: {
     width: "33%",
