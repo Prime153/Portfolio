@@ -33,6 +33,9 @@ const Image = styled(Img)`
   @media (max-width: 1400px) {
     width: 325px;
   }
+  @media (max-width: 600px) {
+    width: 250px;
+  }
 `;
 
 const Line = styled.hr`
@@ -42,6 +45,9 @@ const Line = styled.hr`
     width: 325px;
     top: -10px;
     border: 4px solid #632efa;
+  }
+  @media (max-width: 600px) {
+    width: 250px;
   }
 `;
 

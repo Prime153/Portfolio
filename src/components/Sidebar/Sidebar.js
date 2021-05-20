@@ -20,7 +20,6 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-
 import gsap from "gsap";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -78,20 +77,31 @@ const SideBar = () => {
         </div>
         <List>
           <ListItem className={classes.listItem}>
-            <StyledLink underline="none" data-scroll href="#about">
+            <Link
+              underline="none"
+              data-scroll
+              href="#about"
+              style={{ color: "white" }}
+              className={classes.link}
+            >
               <Typography variant="inherit" color="secondary">
                 .
               </Typography>
               about()
-            </StyledLink>
+            </Link>
           </ListItem>
           <ListItem className={classes.listItem}>
-            <StyledLink underline="none" data-scroll href="#skills">
+            <Link
+              underline="none"
+              data-scroll
+              href="#skills"
+              className={classes.link}
+            >
               <Typography variant="inherit" color="secondary">
                 .
               </Typography>
               skills()
-            </StyledLink>
+            </Link>
           </ListItem>
           <ListItem className={classes.listItem}>
             <StyledLink underline="none" data-scroll href="#projects">

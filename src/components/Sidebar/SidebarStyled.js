@@ -32,6 +32,12 @@ export const useStyles = makeStyles((theme) => ({
     width: "33%",
     color: "white",
   },
+  link: {
+    textDecoration: "none",
+    fontSize: "24px",
+    cursor: "pointer",
+    color: "white !important",
+  },
 }));
 
 const drawerWidth = 200;
@@ -113,11 +119,10 @@ export const StyledIconButton = withStyles((theme) => ({
 }))(IconButton);
 
 export const StyledLink = styled(Link)`
-  text-decoration: none;
-  font-size: 24px;
-  cursor: pointer;
-  color: white;
   transition: 0.2s;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 
   :hover {
     color: #632efa;

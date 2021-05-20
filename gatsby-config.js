@@ -1,8 +1,9 @@
 require("dotenv").config();
 
 module.exports = {
+  pathPrefix: `/Portfolio`,
   siteMetadata: {
-    title: "portfolio",
+    title: "Jakub Imiołczyk",
   },
   plugins: [
     "gatsby-plugin-styled-components",
