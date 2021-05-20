@@ -37,7 +37,6 @@ const drawerWidth = 200;
 
 export const useStylesDrawer = makeStyles((theme) => ({
   root: {
-    color: "white !important",
     zIndex: 99,
     display: "none",
     [theme.breakpoints.down("md")]: {
@@ -73,7 +72,6 @@ export const useStylesDrawer = makeStyles((theme) => ({
     position: "relative",
     top: "10px",
     left: "20px",
-
     zIndex: 999,
     backgroundColor: "white",
     marginLeft: theme.spacing(2),
@@ -81,6 +79,9 @@ export const useStylesDrawer = makeStyles((theme) => ({
   iconArrow: {
     color: "white",
     fontSize: "30px",
+  },
+  icon: {
+    color: "black !important",
   },
 
   contentShift: {

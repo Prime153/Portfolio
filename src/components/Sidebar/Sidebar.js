@@ -147,7 +147,6 @@ const SideBar = () => {
       <div className={drawerClasses.root}>
         <IconButton
           color="inherit"
-          aria-label="open drawer"
           onClick={handleDrawerOpen}
           edge="start"
           className={drawerClasses.iconButton}

@@ -7,7 +7,6 @@ import {
 } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 import { graphql, useStaticQuery } from "gatsby";
-import styled from "styled-components";
 
 const StyledButton = withStyles((theme) => ({
   root: {
@@ -41,10 +40,6 @@ const StyledButtonGroup = withStyles((theme) => ({
     },
   },
 }))(ButtonGroup);
-
-const StyledOption = styled.option`
-  background-color: #632efa !important;
-`;
 
 const Button = ({ download, children, startIcon, link, color }) => {
   // cant use graphql variables cuz of static query
