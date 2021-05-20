@@ -7,16 +7,16 @@ import {
   ListItem,
   Grid,
   Link,
+  IconButton,
 } from "@material-ui/core";
 import {
   useStyles,
   useStylesDrawer,
   Logo,
   StyledLink,
-  StyledIconButton,
+  StyledIconLinks,
 } from "./SidebarStyled";
 import { graphql, useStaticQuery } from "gatsby";
-import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
@@ -77,31 +77,20 @@ const SideBar = () => {
         </div>
         <List>
           <ListItem className={classes.listItem}>
-            <Link
-              underline="none"
-              data-scroll
-              href="#about"
-              style={{ color: "white" }}
-              className={classes.link}
-            >
+            <StyledLink underline="none" data-scroll href="#about">
               <Typography variant="inherit" color="secondary">
                 .
               </Typography>
               about()
-            </Link>
+            </StyledLink>
           </ListItem>
           <ListItem className={classes.listItem}>
-            <Link
-              underline="none"
-              data-scroll
-              href="#skills"
-              className={classes.link}
-            >
+            <StyledLink underline="none" data-scroll href="#skills">
               <Typography variant="inherit" color="secondary">
                 .
               </Typography>
               skills()
-            </Link>
+            </StyledLink>
           </ListItem>
           <ListItem className={classes.listItem}>
             <StyledLink underline="none" data-scroll href="#projects">
@@ -127,28 +116,25 @@ const SideBar = () => {
           style={{ height: "45vh" }}
         >
           <Grid item className={classes.iconContainer}>
-            <StyledIconButton
+            <StyledIconLinks
               target="_blank"
               href="https://www.facebook.com/profile.php?id=100006804726177"
             >
               <FacebookIcon />
-            </StyledIconButton>
+            </StyledIconLinks>
           </Grid>
           <Grid item className={classes.iconContainer}>
-            <StyledIconButton
+            <StyledIconLinks
               target="_blank"
               href="https://www.linkedin.com/in/jakub-imio%C5%82czyk-779b68203/"
             >
               <LinkedInIcon />
-            </StyledIconButton>
+            </StyledIconLinks>
           </Grid>
           <Grid item className={classes.iconContainer}>
-            <StyledIconButton
-              target="_blank"
-              href="https://github.com/Prime153"
-            >
+            <StyledIconLinks target="_blank" href="https://github.com/Prime153">
               <GitHubIcon />
-            </StyledIconButton>
+            </StyledIconLinks>
           </Grid>
         </Grid>
       </div>
@@ -224,28 +210,28 @@ const SideBar = () => {
             style={{ height: "45vh" }}
           >
             <Grid item className={classes.iconContainer}>
-              <StyledIconButton
+              <StyledIconLinks
                 target="_blank"
                 href="https://www.facebook.com/profile.php?id=100006804726177"
               >
                 <FacebookIcon />
-              </StyledIconButton>
+              </StyledIconLinks>
             </Grid>
             <Grid item className={classes.iconContainer}>
-              <StyledIconButton
+              <StyledIconLinks
                 target="_blank"
                 href="https://www.linkedin.com/in/jakub-imio%C5%82czyk-779b68203/"
               >
                 <LinkedInIcon />
-              </StyledIconButton>
+              </StyledIconLinks>
             </Grid>
             <Grid item className={classes.iconContainer}>
-              <StyledIconButton
+              <StyledIconLinks
                 target="_blank"
                 href="https://github.com/Prime153"
               >
                 <GitHubIcon />
-              </StyledIconButton>
+              </StyledIconLinks>
             </Grid>
           </Grid>
         </Drawer>

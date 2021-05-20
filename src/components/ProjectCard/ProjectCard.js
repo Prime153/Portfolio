@@ -62,9 +62,12 @@ const ProjectCard = ({
 
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent className={classes.cardContent}>
-            <Button color="primary" link={live} startIcon={<GitHubIcon />}>
-              Live
-            </Button>
+            {title !== "Portfolio" && (
+              <Button color="primary" link={live} startIcon={<GitHubIcon />}>
+                Live
+              </Button>
+            )}
+
             <Button color="secondary" link={code} startIcon={<CodeIcon />}>
               Code
             </Button>

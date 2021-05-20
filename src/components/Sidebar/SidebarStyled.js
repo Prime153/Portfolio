@@ -1,6 +1,8 @@
-import { IconButton, makeStyles, withStyles, Link } from "@material-ui/core";
+import { IconButton, makeStyles, withStyles } from "@material-ui/core";
 import styled, { css } from "styled-components";
 import Img from "gatsby-image";
+import { Link } from "gatsby";
+// Material UI links broke while deploying
 
 export const useStyles = makeStyles((theme) => ({
   root: {
@@ -8,11 +10,8 @@ export const useStyles = makeStyles((theme) => ({
     width: "150px",
     backgroundColor: "#252728",
     position: "fixed",
-    color: "white !important",
     zIndex: 999,
     boxShadow: " 16px 0px 20px rgba(0, 0, 0, 0.25)",
-
-    // boxShadow: "1px 0px 50px -14px rgba(99,46,250,1)",
     [theme.breakpoints.down("md")]: {
       display: "none",
     },
@@ -26,17 +25,10 @@ export const useStyles = makeStyles((theme) => ({
   listItem: {
     display: "flex",
     justifyContent: "center",
-    color: "white !important",
   },
   iconContainer: {
     width: "33%",
     color: "white",
-  },
-  link: {
-    textDecoration: "none",
-    fontSize: "24px",
-    cursor: "pointer",
-    color: "white !important",
   },
 }));
 
@@ -112,7 +104,7 @@ export const Logo = styled(Img)`
     `}
 `;
 
-export const StyledIconButton = withStyles((theme) => ({
+export const StyledIconLinks = withStyles((theme) => ({
   root: {
     color: "white",
   },

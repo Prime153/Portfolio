@@ -39,7 +39,7 @@ const Projects = () => {
   const data = [
     {
       id: 1,
-      image: query.allFile.nodes[2].childImageSharp.fluid,
+      image: query.allFile.nodes[3].childImageSharp.fluid,
       title: "Reptile Planet",
       text: "Pet shop with wide range of exotic species",
       description:
@@ -51,7 +51,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      image: query.allFile.nodes[3].childImageSharp.fluid,
+      image: query.allFile.nodes[4].childImageSharp.fluid,
       title: "Solar System ",
       text: "One page scroll website for solar energy company ",
       description:
@@ -74,7 +74,7 @@ const Projects = () => {
 
     {
       id: 4,
-      image: query.allFile.nodes[1].childImageSharp.fluid,
+      image: query.allFile.nodes[2].childImageSharp.fluid,
       title: "Hamster Smasher",
       text: "Simple game build in vanilla JavaScript",
       description:
@@ -83,14 +83,17 @@ const Projects = () => {
       code: "https://github.com/Prime153/Hamster-Smasher-Game",
       techno: "JavaSCript, HTML, CSS",
     },
-    // {
-    //   id: query.allFile.nodes[4].id,
-    //   image: query.allFile.nodes[4].childImageSharp.fluid,
-    //   title: "Hamster Smasher",
-    //   text: "lorem impsum dorem hpospospjss",
-    //   description:
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    // },
+    {
+      id: 5,
+      image: query.allFile.nodes[1].childImageSharp.fluid,
+      title: "Portfolio",
+      text: "Portfolio website",
+      description:
+        "My first project in Gatsby. Creating this website I was using new learned technology such as Material UI or GSAP. I took file data using Graphql.",
+      code: "https://github.com/Prime153/Portfolio",
+      techno:
+        "Gatsby,Graphql,Gatsby Image, GSAP, Formik, React Parallax library, Material UI, Styled Components",
+    },
   ];
 
   return (
