@@ -92,7 +92,7 @@ const Projects = () => {
         "My first project in Gatsby. Creating this website I was using new learned technology such as Material UI or GSAP. I took file data using Graphql.",
       code: "https://github.com/Prime153/Portfolio",
       techno:
-        "Gatsby,Graphql,Gatsby Image, GSAP, Formik, React Parallax library, Material UI, Styled Components",
+        "Gatsby,Graphql,Gatsby Image, GSAP, Formik, React Parallax library, Material UI, Styled Components, EmailJs API",
     },
   ];
 
