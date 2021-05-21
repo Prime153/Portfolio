@@ -69,8 +69,8 @@ const Button = ({ download, children, startIcon, link, color }) => {
         <StyledButton
           color={color}
           variant="contained"
-          href={value === "pl" ? nodes[0].publicURL : nodes[1].publicURL}
-          download={value === "pl" ? nodes[0].name : nodes[1].name}
+          href={value === "pl" ? nodes[1].publicURL : nodes[0].publicURL}
+          download={value === "pl" ? nodes[1].name : nodes[0].name}
           style={{ width: "150px" }}
         >
           {children}
