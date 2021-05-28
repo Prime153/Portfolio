@@ -81,11 +81,11 @@ const About = () => {
               </Typography>
             </StyledHeading>
             <StyledText variant="h6">
-              I’m highly motivated guy who hates leave any loose ends. I’ve
-              started my frontend journey since 2019. Since then, I spend every
+              I’m a highly motivated guy who hates to leave any loose ends. I’ve
+              started my front-end journey in 2019. Since then, I spend every
               free moment to messing with the code and I really enjoy it. I
               create every layout by myself. I’m looking for some ideas on the
-              internet, take my favourite parts and put it together in Figma.
+              internet, take my favorite parts and put them together in Figma.
               When I’m not coding or programming, you can find me somewhere
               between my lizards or tarantulas or just on the fields in
               Battlefield.

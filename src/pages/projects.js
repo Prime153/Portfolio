@@ -43,7 +43,7 @@ const Projects = () => {
       title: "Reptile Planet",
       text: "Pet shop with wide range of exotic species",
       description:
-        "This project was created for two reasons. I wanted to put together my main interests. Coding and passion to animals, and to improve my skills with React Redux. The whole data is located in redux state, so it’s very easy to manage it, from any part of the application. Items in basket are saved in local storage. When ordering, you can check the local weather conditions. I used OpenWeatherMap API for it. By going to subpages, you may notice some page flickering, it's beacause of scroll to top function. While browsing the store you may come across few pictures of my animals.",
+        "This project was created for two reasons - the desire to learn more about React Redux and the combination of my main interests. The website layout was designed by me in Figma. All product data and the shopping cart itself have been embedded in the Redux state. This way you can easily manage your data from anywhere in the application. When placing an order, you can check the current weather in the location specified by the user via the OpenWeatherMap API.",
       live: "https://prime153.github.io/Reptile-Planet/#/",
       code: "https://github.com/Prime153/Reptile-Planet",
       techno:
@@ -55,7 +55,7 @@ const Projects = () => {
       title: "Solar System ",
       text: "One page scroll website for solar energy company ",
       description:
-        "This is my first project in React. This is one page scroll website using React Router hash links. I added smooth scroll library for cleaner surfing. In calculator page, you can calculate how many kW you need for your monthly energy consumption. AOS library was used for scroll animations.",
+        "My first React project. This is a website for a solar energy company. The website was created in the One Page Scroll Site convention. The React Router Hash Links library was used here to support smooth traffic between subpages. In the Calculator subpage, I implemented a simple calculator that calculates how many kW should be installed to reduce the monthly cost of electricity given by the user. AOS Animations Library was used for the scrolling animation.",
       live: "https://prime153.github.io/Solar-System-Website/",
       code: "https://github.com/Prime153/Solar-System-Website",
       techno: "React, Router, Styled Components, Formik, AOS Animation Library",
@@ -66,7 +66,7 @@ const Projects = () => {
       title: "Kanban Board",
       text: "Kanban board build with DnD library",
       description:
-        "This is very simple kanban board. I used Beautiful DnD library for it. User can choose the importance of the card, while adding new one.",
+        "A simple application made in React. It uses the Beautiful DnD Library to smoothly move cards. When creating a new card, the user can specify a priority.",
       live: "https://prime153.github.io/Kanban-Board/",
       code: "https://github.com/Prime153/Kanban-Board",
       techno: "React, Styled Components, Beautiful DnD Library",
@@ -78,7 +78,7 @@ const Projects = () => {
       title: "Hamster Smasher",
       text: "Simple game build in vanilla JavaScript",
       description:
-        "I wanted to improve my JavaScript skills, so I decided to make simple game. Player has to smash appearing hamsters. You are gaining points or loosing lifes, if you miss the hamster. I know, hitboxes are awful. Every hamster is going through some function (siting, smash event), when appropriate time is come. ",
+        "It is a simple pure JavaScript game. It was created in order to practice my skill in this language. The user has to hit the cursor with the hamsters that appear from time to time. The game is over when the user reaches the allotted number of points or loses all lives. Before starting the game, you can choose the difficulty level. The game creates data as you select a level. ",
       live: "https://prime153.github.io/Hamster-Smasher-Game/",
       code: "https://github.com/Prime153/Hamster-Smasher-Game",
       techno: "JavaSCript, HTML, CSS",
@@ -89,7 +89,7 @@ const Projects = () => {
       title: "Portfolio",
       text: "Portfolio website",
       description:
-        "My first project in Gatsby. Creating this website I was using new learned technology such as Material UI or GSAP. I took file data using Graphql.",
+        "My first project in Gatsby.js. The GSAP library for animation has been implemented here. I also used the CSS framework, Material UI. On the contact page, I used the EmailJS API to send an e-mail to my account. For the images on the page, the Gatsby-image plugin was used.",
       code: "https://github.com/Prime153/Portfolio",
       techno:
         "Gatsby,Graphql,Gatsby Image, GSAP, Formik, React Parallax library, Material UI, Styled Components, EmailJs API",
