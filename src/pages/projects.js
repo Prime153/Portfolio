@@ -39,7 +39,7 @@ const Projects = () => {
   const data = [
     {
       id: 1,
-      image: query.allFile.nodes[3].childImageSharp.fluid,
+      image: query.allFile.nodes[4].childImageSharp.fluid,
       title: "Reptile Planet",
       text: "Pet shop with wide range of exotic species",
       description:
@@ -74,7 +74,7 @@ const Projects = () => {
 
     {
       id: 4,
-      image: query.allFile.nodes[1].childImageSharp.fluid,
+      image: query.allFile.nodes[2].childImageSharp.fluid,
       title: "Hamster Smasher",
       text: "Simple game build in vanilla JavaScript",
       description:
@@ -85,7 +85,7 @@ const Projects = () => {
     },
     {
       id: 5,
-      image: query.allFile.nodes[4].childImageSharp.fluid,
+      image: query.allFile.nodes[1].childImageSharp.fluid,
       title: "Portfolio",
       text: "Portfolio website",
       description:
