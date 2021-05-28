@@ -74,7 +74,7 @@ const Projects = () => {
 
     {
       id: 4,
-      image: query.allFile.nodes[2].childImageSharp.fluid,
+      image: query.allFile.nodes[3].childImageSharp.fluid,
       title: "Hamster Smasher",
       text: "Simple game build in vanilla JavaScript",
       description:
