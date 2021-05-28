@@ -1,5 +1,7 @@
 # Portfolio website
-My first project in Gatsby. Creating this website I was using new learned technology such as Material UI or GSAP. I took file data using Graphql.
+My first project in Gatsby.js. The GSAP library for animation has been mplemented here. I also used the CSS framework, Material UI. On the
+"contact" page, I used the EmailJS API to send an e-mail to my own account.
+For the images on the page, the "Gastby-image" plugin was used
 
 [![Portfolio](https://i.ibb.co/Wt84DHP/portfolio.jpg "Portfolio")](https://jakubimiolczyk.gatsbyjs.io/ "Portfolio")
 
