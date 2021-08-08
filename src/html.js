@@ -26,6 +26,8 @@ export default function HTML(props) {
             display: "flex",
             justifyContent: "center",
             position: "absolute",
+            width: "100%",
+            height: "vh",
             zIndex: 999,
           }}
         >

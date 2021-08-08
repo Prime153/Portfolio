@@ -10,7 +10,7 @@ export const useStyles = makeStyles((theme) => ({
     width: "150px",
     backgroundColor: "#252728",
     position: "fixed",
-    zIndex: 998,
+    zIndex: 99,
     boxShadow: " 16px 0px 20px rgba(0, 0, 0, 0.25)",
     [theme.breakpoints.down("md")]: {
       display: "none",
