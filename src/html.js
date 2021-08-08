@@ -26,11 +26,7 @@ export default function HTML(props) {
             display: "flex",
             justifyContent: "center",
             position: "absolute",
-            left: 0,
-            top: 0,
-            right: 0,
-            bottom: 0,
-            zIndex: 100,
+            zIndex: 999,
           }}
         >
           <Loader type="ThreeDots" color="#632EFA" height={80} width={80} />
